@@ -1,10 +1,13 @@
 # zeroth-pi
-I decided to replace the Milk-V Duo on the Zeroth-01 with a Raspberry Pi. I did this because I want to replace the head with a RealSense D421 stereo camera, which needs to connect to the main board using USB-C which the Milk-V does not have spare. I also prefer the more familiar Debian OS and the huge Pi community as the foundation for my robot project.
+I decided to replace the Milk-V Duo on the Zeroth-01 with a Raspberry Pi. I did this because I want to replace the eyes with a RealSense D421 stereo camera, which needs to connect to the main board using USB-C which the Milk-V does not have spare.
 
-This repo is what I put together to make it work.
+I also prefer the more familiar Debian OS and the huge Pi community as the foundation for my robot project.
+
+I decided to go for the pricier servo driver HAT, because it can use the battery to properly power the Pi without any wiring.
 
 ## Parts list (websites are Dutch stores)
 
+- 16x [ST3215 Serial Bus Servo](https://www.alibaba.com/product-detail/ST3215-Servo-30KG-Serial-Bus-Servo-1600869438006.html)
 - 1x [Raspberry Pi 5 8GB](https://www.kiwi-electronics.com/en/raspberry-pi-5-8gb-11580)
 - 1x [Waveshare Low profile heatsink](https://www.waveshare.com/product/accessories/power-heat-sinks/heat-sinks/pi5-active-cooler-c.htm)
 - 1x [Waveshare Serial Bus Servo Driver HAT](https://www.waveshare.com/product/raspberry-pi/hats/motors-relays/bus-servo-driver-hat-a.htm)
